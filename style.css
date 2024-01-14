@@ -2,6 +2,7 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
     color: #333;
+    margin: 0; /* Remover margens padrão do corpo */
 }
 
 .container {
@@ -18,4 +19,11 @@ h1 {
 
 p {
     font-size: 18px;
+}
+
+/* Adaptação para dispositivos móveis */
+@media screen and (max-width: 600px) {
+    .container {
+        width: 100%;
+    }
 }
