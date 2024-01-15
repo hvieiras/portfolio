@@ -1,16 +1,32 @@
+/* ################################################ */
+/* # VERSÃO LOCAL DO HENRIQUEVIEIRADASILVA.COM.BR # */
+/* ################################################ */
+/*Nome das partes em geral*/
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #B7DBF8;
     color: #333;
-    margin: 0; /* Remover margens padrão do corpo */
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth; /* Adiciona um efeito de rolagem suave */
 }
 
-.container {
-    width: 80%;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+header {
+    background-color: #001220;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer {
+    background-color: #001220;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 h1 {
@@ -19,9 +35,135 @@ h1 {
 
 p {
     font-size: 18px;
+    color: #0000C8;
 }
 
-/* Adaptação para dispositivos móveis */
+canvas {
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.left-section {
+    display: flex;
+    align-items: center;
+}
+
+.middle-section {
+    display: flex;
+    align-items: center;
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+}
+
+.menu-item {
+    margin-right: 1.5vw;
+    margin-left: 1.5vw;
+    color: #0000C8;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.5vw;
+}
+
+.section {
+    width: 100vw;
+    height: 100vh;
+}
+
+.conteudofooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+.contatos{
+    color: #0000C8; 
+    font-size: 1.5vw;
+    text-align: left;
+    display: inline;
+}
+
+
+
+/*Nome das partes em específico*/
+#parteintroducao {
+    background-color: #B7DBF8;
+}
+
+#parteapresentacaopessoal {
+    background-color: #58ABED;
+}
+
+#parteapresentacaoprojeto {
+    background-color: #B7DBF8;
+}
+
+#partejava{
+    background-color: #58ABED;
+}
+
+#partecsharp{
+    background-color: #B7DBF8;
+}
+
+#parteflutter{
+    background-color: #58ABED;
+}
+
+#partehtmlcssjs{
+    background-color: #B7DBF8;
+}
+
+#nomeprojeto {
+    color: #B7DBF8; 
+    font-size: 3vw;
+    font-weight: bold;
+}
+
+#nomecompleto{
+    color: #0000C8; 
+    font-size: 1.8vw;
+    font-weight: bold;
+}
+
+#lista{
+    color: #0000C8; 
+    margin-right: 2.8vw; 
+}
+
+#lista li {
+    display: flex;
+    align-items: center;
+    margin-bottom: -1vw; 
+}
+
+#lista li i {
+    margin-right: 1vw; 
+}
+
+
+
+/*Ajustando barra de rolagem:*/
+::-webkit-scrollbar {
+    width: 0.5vw;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #001220;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+
+
+/* Adaptação para dispositivos móveis: */
 @media screen and (max-width: 600px) {
     .container {
         width: 100%;

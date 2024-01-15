@@ -1,3 +1,13 @@
+// ################################################
+// # VERSÃO LOCAL DO HENRIQUEVIEIRADASILVA.COM.BR #
+// ################################################
+
 document.addEventListener("DOMContentLoaded", function() {
-    alert("Bem-vindo ao meu site!");
+    console.log("O script foi carregado com sucesso!");
 });
+//document.addEventListener("DOMContentLoaded", function() {
+    // Código a ser executado quando o DOM estiver completamente carregado
+
+    // Exibe uma caixa de diálogo de boas-vindas
+//    alert("Bem-vindo ao meu site!");
+//});
